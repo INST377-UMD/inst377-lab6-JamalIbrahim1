@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map of US</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            text-align: center;
+        }
+        #map {
+            height: 500px;
+            margin: 0 auto;
+            max-width: 80%;
+        }
+        #coordinates-info {
+            max-width: 80%;
+            margin: 20px auto;
+            font-size: 16px;
+        }
+        .marker-info {
+            margin-top: 15px;
+        }
+        .note {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Map of US</h2>
+    <div id="map"></div>
+    <div id="coordinates-info"></div>
+    <div class="note">Note: Your Coordinates and Localities will Vary as those will be randomly generated</div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="lab6.js"></script> 
+</body>
+</html>
